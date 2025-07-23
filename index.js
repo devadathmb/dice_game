@@ -23,6 +23,7 @@ function randomizer() {
     }
   }
   winner();
+  document.querySelector(".button").textContent = "Reroll";
 }
 var player1 = prompt("Enter Name of Player 1 : ");
 var player2 = prompt("Enter Name of Player 2 : ");
