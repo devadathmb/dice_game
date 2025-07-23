@@ -15,7 +15,7 @@ function randomizer() {
     if(randomNum1===randomNum2){
         heading.innerHTML = "Draw🫠";
     }
-    else if(randomNum1<randomNum2){
+    else if(randomNum1>randomNum2){
         heading.innerHTML = player1+" Wins🚩";
     }
     else{
