@@ -73,6 +73,10 @@ html{
 
 /* For small screens */
 @media (max-width:650px) {
+    html{
+        font-size: 50%;
+    }
+    
     .dice-container{
         flex-direction: column;
         align-items: center;
@@ -83,11 +87,12 @@ html{
     }
 
     #title{
+        margin-top: 0px;
         margin-bottom: 20px;
     }
 
     img{
-        height: 200px;
+        height: 20vh;
     }
     
 }
