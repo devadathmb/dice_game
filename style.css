@@ -1,0 +1,93 @@
+html{
+    background-color: #393E46;
+}
+
+/* Imported Fonts */
+.italianno-regular {
+  font-family: "Italianno", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Title */
+#title{
+    font-size: 5rem;
+    text-align: center;
+    color: #4ECCA3;
+}
+
+/* Player Headings */
+.dice-container{
+    display: flex;
+    justify-content: center;  
+}
+
+.player-name{
+    width: 50vw;
+    text-align: center;
+    color: #1b7d5d;
+    font-size: 2.5rem;
+}
+
+/* Dices */
+.dice-container{
+    display: flex;
+    justify-content: center;
+}
+
+.dice{
+    display: flex;
+    width: 50vw;
+    justify-content: center;
+}
+
+/* Button */
+.button-container{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.button{
+    font-size: 2rem;
+    border-radius: 8px;
+    background-color: #4ECCA3;
+}
+.button:hover{
+    background-color: #1b7d5d;
+}
+
+/* Footer */
+.footer{
+    text-align: center;
+    color: #4ECCA3;
+    margin-top: 5rem;
+    font-size: 1.5rem;
+}
+
+
+/* For small screens */
+@media (max-width:650px) {
+    .dice-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .player-name p{
+        margin: 10px 0px;
+    }
+
+    #title{
+        margin-bottom: 20px;
+    }
+
+    img{
+        height: 200px;
+    }
+    
+}
